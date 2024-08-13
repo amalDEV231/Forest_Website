@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(22, 56, 98);
+    color: rgb(243, 241, 238);
+
+}
+header{
+    background-color: rgba(28,84,117,255);
+    padding: 20px 10px;
+}
+nav{
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    padding: 0 10px;
+    margin: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-radius: 10px;
+    transition: background-color 1s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgb(22, 56, 98);
+    color: rgb(252, 255, 255);
+   
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(22, 56, 98);
+   
+}
+.image_section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("image2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(14, 49, 60);
+}
+.image_section h1{
+    font-size: 60px;
+    padding-bottom: 200px;
+}
+
+.cards_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(245, 246, 247);
+}
+
+.cards {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 550px;
+    width: 400px;
+    background-color: cadetblue;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    color: white; /* Default text color for better visibility */
+}
+
+.cards:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Lifting effect */
+}
+
+.cards h2 {
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+
+.cards p {
+    font-size: 1.2rem;
+    color: white; /* Adjusted to ensure visibility over the background image */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card1 {
+    background-image: url("./bear.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #1c8874; /* Matching color for the bear card text */
+}
+
+.card2 {
+    background-image: url("./fox.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #b6a520; /* Matching color for the fox card text */
+}
+
+.card3 {
+    background-image: url("./peacock.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #4bcaff; /* Matching color for the peacock card text */
+}
+
+.login_section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./back2.png");
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(22, 56, 98);
+}
+
+.login_container {
+    background-color: rgba(28,84,117,255);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: rgb(243, 241, 238);
+    width: 300px;
+}
+
+.login_container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(22, 56, 98);
+    color: rgb(243, 241, 238);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: rgb(14, 49, 60);
+}
